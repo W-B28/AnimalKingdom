@@ -37,7 +37,7 @@ public String getName()
     return name;
 }
 
-public int getYear() 
+public int getYearDiscovered()
 {
     return year;
 }
