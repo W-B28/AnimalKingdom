@@ -9,7 +9,7 @@ abstract class Animals
     
     
     // base constructor
-    public void Animal(String name, int year)
+    public Animals(String name, int year)
     {
        maxId++;
        this.id = maxId;
@@ -37,7 +37,7 @@ public String getName()
     return name;
 }
 
-public int getYear() 
+public int getYearDiscovered()
 {
     return year;
 }
